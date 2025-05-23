@@ -2373,3 +2373,19 @@ p {
     max-width: 120px;
   }
 }
+
+.purecounter-wrapper {
+  font-size: 40px;
+  font-weight: bold;
+  color: #2c3e50;
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 2px;
+}
+
+.plus-sign {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-left: 2px;
+}
