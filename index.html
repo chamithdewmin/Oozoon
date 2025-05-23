@@ -961,32 +961,29 @@
               <h3>Get In Touch</h3>
               <p>We'd love to hear from you! Whether you have a question, project idea, or just want to say hello — feel free to reach out.</p>
 
-        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-          <div class="row gy-4">
-            <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-            </div>
+<form action="forms/contact.php" method="post" class="php-email-form">
+  <div class="row gy-4">
+    <div class="col-md-6">
+      <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+    </div>
+    <div class="col-md-6">
+      <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+    </div>
+    <div class="col-12">
+      <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+    </div>
+    <div class="col-12">
+      <textarea name="message" rows="6" class="form-control" placeholder="Message" required></textarea>
+    </div>
+    <div class="col-12 text-center">
+      <div class="loading" style="display:none;">Loading...</div>
+      <div class="error-message" style="display:none; color: red;"></div>
+      <div class="sent-message" style="display:none; color: green;">Your message has been sent. Thank you!</div>
+      <button type="submit" class="btn btn-danger">Send Message</button>
+    </div>
+  </div>
+</form>
 
-            <div class="col-md-6">
-              <input type="email" name="email" class="form-control" placeholder="Your Email" required>
-            </div>
-
-            <div class="col-12">
-              <input type="text" name="subject" class="form-control" placeholder="Subject" required>
-            </div>
-
-            <div class="col-12">
-              <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
-            </div>
-
-            <div class="col-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-              <button type="submit" class="btn">Send Message</button>
-            </div>
-          </div>
-        </form>
 
 
             </div>
