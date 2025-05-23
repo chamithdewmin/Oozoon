@@ -2415,10 +2415,6 @@ p {
 }
 
 
-.whatsapp-image-testimonial {
-  padding: 60px 0;
-}
-
 .whatsapp-image-wrapper {
   display: flex;
   justify-content: center;
@@ -2432,4 +2428,5 @@ p {
   height: auto;
   border-radius: 12px;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+  cursor: zoom-in;
 }
