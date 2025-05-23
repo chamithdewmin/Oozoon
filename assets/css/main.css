@@ -2345,3 +2345,15 @@ h1, h2, h3 {
 p {
   font-family: 'Roboto', sans-serif;
 }
+
+@media (max-width: 768px) {
+  .logo-img {
+    max-width: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-img {
+    max-width: 120px;
+  }
+}
