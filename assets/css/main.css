@@ -2363,7 +2363,7 @@ p {
 /* Small screens (like phones) */
 @media (max-width: 768px) {
   .logo-img {
-    max-width: 140px;
+    max-width: 200px;
   }
 }
 
